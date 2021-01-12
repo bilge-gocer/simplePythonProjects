@@ -8,7 +8,7 @@
 # @param s the string to check
 # @return True if s represents an integer. False otherwise.
 
-def isInteger(s):
+def is_integer(s):
     # Remove whitespace from the beginning and end of the string
 
     s = s.strip()
@@ -25,7 +25,7 @@ def isInteger(s):
 # Demonstrate the isInteger function
 def main():
     s = input("Enter a string: ")
-    if isInteger(s):
+    if is_integer(s):
         print("That string represents an integer.")
     else:
         print("That string does not represent an integer.")
